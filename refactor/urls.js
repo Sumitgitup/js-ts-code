@@ -18,7 +18,7 @@ function getURL({dev = false, nextTasks = false, prevTasks = false} = {}) {
     }
 
     const query = params.toString();
-    const url = query ? `/${basePath}?${query}` : basePath;
+    const url = query ? `${basePath}?${query}` : basePath;
     return {url}
 }
 
