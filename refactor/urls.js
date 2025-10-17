@@ -21,6 +21,3 @@ function getURL({dev = false, nextTasks = false, prevTasks = false} = {}) {
     const url = query ? `${basePath}?${query}` : basePath;
     return {url}
 }
-
-
-console.log( getURL());
